@@ -1,45 +1,100 @@
 # Advertising Campaign Performance Analysis
 
-This project analyzes multi-platform digital advertising performance using Python and Pandas. The analysis compares campaign performance across Google, Meta, and TikTok and evaluates key marketing metrics to identify stronger and weaker areas of performance.
+This project analyzes a synthetic advertising campaign dataset using Python, Pandas, and Matplotlib in Google Colab.
+
+The dataset includes campaign performance across Google Ads, Meta Ads, and TikTok Ads, with metrics such as impressions, clicks, ad spend, conversions, revenue, ROAS, CPA, CTR, and CPC.
+
+The goal of the project was to compare performance by platform, campaign type, industry, country, and platform-campaign combinations to identify the strongest returns, lowest costs, and most efficient advertising strategies.
 
 ## Tools Used
+
 - Python
 - Pandas
 - Matplotlib
 - Google Colab
 
-## Metrics Analyzed
+## Dataset
+
+The project uses the Global Ads Performance dataset from Kaggle, a synthetic dataset created for marketing analytics practice.
+
+The dataset contains campaign-level performance across:
+
+- Google Ads
+- Meta Ads
+- TikTok Ads
+
+It includes 1,800 rows and 14 columns, with no missing values.
+
+## Metrics Used
+
+- Return on Ad Spend (ROAS)
+- Cost Per Acquisition (CPA)
+- Click-Through Rate (CTR)
+- Cost Per Click (CPC)
 - Ad Spend
 - Revenue
 - Conversions
-- ROAS
-- CPA
-- CTR
-- CPC
+- Impressions
+- Clicks
 
 ## Business Questions
-- Which advertising platform performs best?
-- Which industries generate the strongest campaign results?
-- Which countries show the strongest advertising performance?
-- How do Google, Meta, and TikTok compare across major marketing KPIs?
-- Where are there opportunities to improve campaign efficiency?
+
+- Which advertising platform generated the strongest return on ad spend?
+- Which platform generated conversions at the lowest cost?
+- Which campaign type had the strongest average ROAS?
+- Which industries performed most efficiently?
+- Which countries generated the strongest return on ad spend?
+- How did ad spend relate to revenue?
+- Which platform and campaign-type combinations performed best?
 
 ## Analysis
 
-The project uses Python and Pandas to clean, organize, group, and analyze advertising campaign data.
+Pandas was used to load, inspect, group, and summarize the advertising dataset.
 
-Performance was evaluated across:
-- Platform
-- Country
+Performance was analyzed across:
+
+- Advertising platform
+- Campaign type
 - Industry
+- Country
+- Platform and campaign-type combinations
 
-The analysis compares spending, revenue, conversions, ROAS, CPA, CTR, and CPC to identify patterns in campaign effectiveness and efficiency.
+For each grouping, the analysis calculated:
+
+- Total ad spend
+- Total revenue
+- Total conversions
+- Average ROAS
+- Average CPA
+- Average CTR
+- Average CPC
+
+Matplotlib was used to create visualizations comparing campaign performance and advertising efficiency.
+
+## Key Findings
+
+- TikTok Ads had the highest average ROAS at approximately 9.54, followed by Meta Ads at 6.92 and Google Ads at 4.11.
+- TikTok Ads also had the lowest average CPA at approximately $29.20, making it the most cost-efficient platform for generating conversions.
+- Google Ads generated the highest total revenue and total conversions, with approximately $22.0 million in revenue and 131,098 conversions, but it also had the lowest average ROAS and highest average CPA among the three platforms.
+- Search campaigns had the highest average ROAS by campaign type at approximately 7.00, followed by Display, Video, and Shopping.
+- EdTech had the highest average ROAS by industry at approximately 6.83, followed by SaaS and Healthcare.
+- The UAE had the highest average ROAS by country at approximately 6.96, followed by Germany, Australia, and India. The USA had the lowest average ROAS among the countries analyzed.
+- Ad spend and revenue showed a generally positive relationship, but higher spending did not consistently produce the highest revenue. This demonstrates why efficiency metrics such as ROAS and CPA are important when evaluating advertising performance.
+- TikTok Search had the highest average ROAS among platform-campaign combinations at approximately 10.52, followed by TikTok Display and TikTok Video.
+- TikTok Ads occupied the top four platform-campaign combinations by average ROAS, while Meta Display and Meta Search also appeared in the top six.
+- Google Ads did not appear among the top six platform-campaign combinations by average ROAS, suggesting lower efficiency relative to TikTok and Meta in this dataset.
 
 ## Files
 
-- `Advertising_Campaign_Performance_Analysis.ipynb` — Jupyter notebook containing the Python analysis, visualizations, and findings
+- `Advertising_Campaign_Performance_Analysis.ipynb` — Google Colab notebook containing the Python analysis, visualizations, and findings
 - `global_ads_performance_dataset.csv` — dataset used for the analysis
+
+## Recommendations
+
+Based on the analysis, future advertising strategy should prioritize TikTok Ads, particularly TikTok Search and TikTok Display campaigns, because they generated the strongest returns and lower acquisition costs.
+
+Google Ads should still be considered for scale because it generated the highest total revenue and conversions, but its efficiency should be reviewed. Possible opportunities include improving audience targeting, shifting budget toward stronger campaigns, and testing more engaging ad content.
 
 ## Project Goal
 
-The goal of this project was to demonstrate how Python can be used to analyze digital marketing performance, compare campaign results across multiple dimensions, and translate advertising data into actionable business insights.
+The goal of this project was to demonstrate how Python and Pandas can be used to analyze multi-platform advertising performance, compare marketing efficiency across multiple dimensions, and translate campaign data into actionable business insights.

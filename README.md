@@ -111,16 +111,11 @@ TikTok Search had the highest average ROAS, and TikTok campaigns accounted for f
 
 ## Key Findings
 
-- TikTok Ads had the highest average ROAS at approximately 9.54, followed by Meta Ads at 6.92 and Google Ads at 4.11.
-- TikTok Ads also had the lowest average CPA at approximately $29.20, making it the most cost-efficient platform for generating conversions.
-- Google Ads generated the highest total revenue and total conversions, with approximately $22.0 million in revenue and 131,098 conversions, but it also had the lowest average ROAS and highest average CPA among the three platforms.
-- Search campaigns had the highest average ROAS by campaign type at approximately 7.00, followed by Display, Video, and Shopping.
-- EdTech had the highest average ROAS by industry at approximately 6.83, followed by SaaS and Healthcare.
-- The UAE had the highest average ROAS by country at approximately 6.96, followed by Germany, Australia, and India. The USA had the lowest average ROAS among the countries analyzed.
-- Ad spend and revenue showed a generally positive relationship, but higher spending did not consistently produce the highest revenue. This demonstrates why efficiency metrics such as ROAS and CPA are important when evaluating advertising performance.
-- TikTok Search had the highest average ROAS among platform-campaign combinations at approximately 10.52, followed by TikTok Display and TikTok Video.
-- TikTok Ads occupied the top four platform-campaign combinations by average ROAS, while Meta Display and Meta Search also appeared in the top six.
-- Google Ads did not appear among the top six platform-campaign combinations by average ROAS, suggesting lower efficiency relative to TikTok and Meta in this dataset.
+- TikTok Ads had the highest average ROAS and lowest average CPA, making it the most efficient platform overall.
+- Google Ads generated the highest total revenue and conversions, but had the lowest average ROAS and highest average CPA.
+- Search campaigns produced the highest average ROAS among campaign types.
+- Ad spend showed a generally positive relationship with revenue, but higher spending did not consistently produce the highest returns.
+- TikTok Search had the highest average ROAS among platform-campaign combinations, with TikTok occupying four of the top six combinations.
 
 ## Files
 
@@ -129,10 +124,6 @@ TikTok Search had the highest average ROAS, and TikTok campaigns accounted for f
 
 ## Recommendations
 
-Based on the analysis, future advertising strategy should prioritize TikTok Ads, particularly TikTok Search and TikTok Display campaigns, because they generated the strongest returns and lower acquisition costs.
+Based on the analysis, future advertising strategy should prioritize TikTok Ads, particularly TikTok Search and Display, due to their stronger ROAS and lower acquisition costs. Google Ads may still be useful for scale because it generated the highest revenue and conversions, but its efficiency should be monitored.
 
 Google Ads should still be considered for scale because it generated the highest total revenue and conversions, but its efficiency should be reviewed. Possible opportunities include improving audience targeting, shifting budget toward stronger campaigns, and testing more engaging ad content.
-
-## Project Goal
-
-The goal of this project was to demonstrate how Python and Pandas can be used to analyze multi-platform advertising performance, compare marketing efficiency across multiple dimensions, and translate campaign data into actionable business insights.

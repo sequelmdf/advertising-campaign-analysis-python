@@ -75,7 +75,7 @@ Matplotlib was used to create visualizations comparing campaign performance and 
 
 ### Platform Performance Summary
 
-![Platform Performance Summary](images/platform-performance-summary.png)
+![Platform Performance Summary](images/platform_performance_summary.png)
 
 Google Ads generated the highest total revenue and conversions, but it also had the lowest average ROAS and highest average CPA. TikTok Ads showed stronger overall efficiency.
 

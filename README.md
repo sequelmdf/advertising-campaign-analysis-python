@@ -124,6 +124,6 @@ TikTok Search had the highest average ROAS, and TikTok campaigns accounted for f
 
 ## Recommendations
 
-Based on the analysis, future advertising strategy should prioritize TikTok Ads, particularly TikTok Search and Display, due to their stronger ROAS and lower acquisition costs. Google Ads may still be useful for scale because it generated the highest revenue and conversions, but its efficiency should be monitored.
+## Recommendations
 
-Google Ads should still be considered for scale because it generated the highest total revenue and conversions, but its efficiency should be reviewed. Possible opportunities include improving audience targeting, shifting budget toward stronger campaigns, and testing more engaging ad content.
+Based on the analysis, future advertising strategy should prioritize TikTok Ads, particularly TikTok Search and Display, due to their stronger ROAS and lower acquisition costs. Google Ads should still be considered when the goal is to generate higher overall revenue and conversion volume, but its efficiency should be monitored. Opportunities for improvement include refining audience targeting, shifting budget toward stronger campaigns, and testing more engaging ad content.
